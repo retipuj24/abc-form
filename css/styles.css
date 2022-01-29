@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid #ccc; */
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main-top{
+    background: #1f2937;
+    color: white;
+}
+header{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* padding: 24px; */
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > ul > li > a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #f5f7fb;
+}
+
+header > ul{
+    list-style: none;
+    display: flex;
+}
+
+.c1{
+    /* outline: 1px solid #ccc; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    /* padding: 20px 20px; */
+    background: #1f2937;
+    color: white;
+    display: flex;
+}
+.c1 > *{
+    flex: 1;
+}
+
+.c1-left{
+    display: flex;
+    flex-direction: column;
+}
+.c1-left > h1, button{
+    flex: 1;
+}
+.c1-left>h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.c1-left > p{
+    flex: 3;
+}
+.c1-left > button{
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+h2{
+    padding: 20px 20px;
+    text-align: center;
+}
+
+
+.gallery-container{
+    /* outline: 1px solid #ccc; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery-container > .gallery-item{
+    flex-basis: 20%;
+    height: 250px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.gallery-container > .gallery-item > .image01{
+    flex-basis: 70%;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    outline: 1px solid #ccc;
+    /* background-color: #cecece; */
+}
+.gallery-container > .gallery-item > .description{
+    flex-basis: 30%;
+    outline: 1px solid #ccc;
+}
+
+.gallery-container > .gallery-item > div > p{
+    text-align: center;
+    /* color: red; */
+}
+
+.quote-section{
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+.quote-section > div > figcaption{
+    text-align: right;
+    font-weight: bolder;
+}
+.content-3{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.signup{  
+    width: 77%;
+    margin: 80px auto;
+    background: #3882f6;
+    border-radius: 10px; 
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around; 
+}
+.signup > .signup-left{
+    display: flex;
+    flex-direction: column;
+}
+.signup-right{
+    display: flex;
+    justify-content: flex-start;
+}
+.signup-right > button{
+    width: 200px;    
+    background: #3882f6;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+
